@@ -7,7 +7,6 @@ import subprocess as sp
 import sys
 import traceback
 
-import requests
 
 idLists = []
 
