@@ -136,7 +136,7 @@ def main():
         createFolder(folder_name)
 
         # Checking automatically, does the file exist or not
-        
+        checkFileExist(file_path, file_name, cycle)
 
         # Finally downloading the file and saving to the folder, you have specified earlier
         downloadImg(file_path, folder_name)
