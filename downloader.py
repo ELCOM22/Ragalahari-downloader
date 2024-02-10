@@ -112,17 +112,17 @@ def main():
         welcomeBanner()
 
         # Getting file_path info from user
-        file_path = input(BColors.BOLD + "Enter your URL Path of the images: ")
+        file_path = input(BColors.BOLD + "Enter your URL Path of the images: https://www.ragalahari.com/actress/167654/anketa-maharana-at-ullala-ullala-movie-interview.aspx ")
 
         # Getting file_name info from user
-        file_name = input(BColors.BOLD + "Enter your file_name: ")
+        file_name = input(BColors.BOLD + "Enter your file_name: apsara rani red ")
 
         # Getting folder info from user for structured storing
-        folder_name = input(BColors.BOLD + "Folder name: ").title()
+        folder_name = input(BColors.BOLD + "Folder name: apsara rani ").title()
 
         # Getting cycle loop info from user
         cycle = input(
-            BColors.BOLD + "How much image you want me to download? (Default: 100): ")
+            BColors.BOLD + "How much image you want me to download? (Default: 200): ")
 
         try:
             if cycle == '':
